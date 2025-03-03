@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration status="Warn">
+
+    <Properties>
+        <Property name="basePath">./logs</Property>
+    </Properties>
+
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        
+        <!-- RollingFile Appender -->
+        <RollingFile name="File" filename="${basePath}/automation.log" filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="5000"/>
+        </RollingFile>
+
+    </Appenders>
+
+ <Loggers>
+	<!-- Root Logger -->    
+ 	<Root level="Info"> <!-- Here you can use multiple log levesl  All< Trace < Debug < Info < Warn <Error < Fatal < Off  -->
+ 		 <AppenderRef ref="Console"/>  
+ 	<!-- 	<AppenderRef ref="File"/>  -->
+ 	</Root>
+ 	
+ 	
+ 	<Logger name="org.openqa.selenium" level="debug" additivity="false">
+      <!--   <AppenderRef ref="Console"/>   -->
+        <AppenderRef ref="File"/>
+    </Logger>
+
+    <!-- Log for your application or test scripts -->
+    <Logger name="com.yourapplication" level="debug" additivity="false">
+       <!--  <AppenderRef ref="Console"/>  -->
+        <AppenderRef ref="File"/>
+    </Logger>
+ 	
+ 	
+ 	<!-- Log4j2 Internal Configuration Logger -->
+        <Logger name="org.apache.logging.log4j.core.config" level="WARN" additivity="false">
+    <!-- No AppenderRef here; this stops internal logs from being forwarded -->
+        </Logger>
+
+    </Loggers>
+ 
+ 
+ 
+</Configuration>

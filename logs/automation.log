@@ -1,0 +1,26 @@
+13:25:25.693 [main] INFO  testCases.TC1_Register - TC1 - Execution Started
+13:25:26.216 [main] INFO  testCases.TC1_Register - Passing customer detials
+13:25:28.065 [main] INFO  testCases.TC1_Register - Validationg confirmation message..
+13:25:28.114 [main] ERROR testCases.TC1_Register - Test failed
+13:25:28.114 [main] DEBUG testCases.TC1_Register - Debug logs...
+13:29:15.985 [main] INFO  testCases.TC1_Register - TC1 - Execution Started
+13:29:16.481 [main] INFO  testCases.TC1_Register - Passing customer detials
+13:29:18.236 [main] INFO  testCases.TC1_Register - Validationg confirmation message..
+13:29:18.316 [main] ERROR testCases.TC1_Register - Test failed
+13:32:58.920 [main] INFO  testCases.TC1_Register - TC1 - Execution Started
+13:32:59.394 [main] INFO  testCases.TC1_Register - Passing customer detials
+13:33:01.132 [main] INFO  testCases.TC1_Register - Validationg confirmation message..
+13:33:01.179 [main] ERROR testCases.TC1_Register - Test failed
+13:33:01.179 [main] DEBUG testCases.TC1_Register - Debug logs...
+13:52:57.281 [main] INFO  testCases.TC1_Register - TC1 - Execution Started
+13:52:57.838 [main] INFO  testCases.TC1_Register - Passing customer detials
+13:52:59.639 [main] INFO  testCases.TC1_Register - Validationg confirmation message..
+13:52:59.691 [main] ERROR testCases.TC1_Register - Test failed
+13:52:59.691 [main] DEBUG testCases.TC1_Register - Debug logs...
+14:06:37.649 [main] INFO  testCases.TC1_Register - Log4j2 is configured and working!
+14:06:37.653 [main] INFO  testCases.TC1_Register - Check if this log appears!
+14:06:37.653 [main] INFO  testCases.TC1_Register - TC1 - Execution Started
+14:06:38.151 [main] INFO  testCases.TC1_Register - Passing customer detials
+14:06:39.825 [main] INFO  testCases.TC1_Register - Validationg confirmation message..
+14:06:39.889 [main] ERROR testCases.TC1_Register - Test failed
+14:06:39.889 [main] DEBUG testCases.TC1_Register - Debug logs...
