@@ -3,10 +3,14 @@ C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\pageObjects\BasePage.
 C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\pageObjects\HomePage.java
 C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\pageObjects\Loginpage.java
 C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\pageObjects\MyAccountPage.java
+C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\pageObjects\ProductDescription_Page.java
+C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\pageObjects\SearchPage.java
+C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\pageObjects\ShoppingCart_Page.java
 C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\testBase\BaseClass.java
 C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\testCases\TC1_RegisterTest.java
 C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\testCases\TC2_LoginTest.java
 C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\testCases\TC3_LoginDDT.java
+C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\testCases\TC4_AddtoCartTest.java
 C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\utilities\DataProviders.java
 C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\utilities\ExcelUtility.java
 C:\Users\laksh\Eclipse workspace\Opencartapp\src\test\java\utilities\ExtentReportManager.java

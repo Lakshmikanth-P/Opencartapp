@@ -15,6 +15,10 @@ public class MyAccountPage extends BasePage{
 	WebElement txt_myaccount;
 	@FindBy(xpath=("//a[@class='list-group-item'][normalize-space()='Logout']"))
 	WebElement btn_logout;
+	@FindBy(xpath=("//input[@placeholder='Search']"))
+	WebElement txtbox_searcharea;
+	@FindBy(xpath=("//button[@class='btn btn-default btn-lg']"))
+	WebElement btn_search;
 	
 	public boolean val_myaccount()
 	{
@@ -32,4 +36,18 @@ public class MyAccountPage extends BasePage{
 	{
 		btn_logout.click();
 	}
+	
+	public void search_product(String product)
+	{
+		txtbox_searcharea.sendKeys(product);
+	}
+	
+	public void clk_search()
+	{
+		btn_search.click();
+	}
+	
+	
+	
+	
 }

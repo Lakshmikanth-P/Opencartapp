@@ -13,9 +13,10 @@
   <parameter name="browser" value="chrome"/>
   
     <classes>
-     	<class name="testCases.TC1_RegisterTest"/>  
+     <!--	<class name="testCases.TC1_RegisterTest"/>  
     	<class name="testCases.TC2_LoginTest"/>    
-   		<!-- <class name="testCases.TC3_LoginDDT"/>  --> 
+   		 <class name="testCases.TC3_LoginDDT"/>  --> 
+   		<class name="testCases.TC4_AddtoCartTest"/>
     </classes>
     
   </test> <!-- Test -->
